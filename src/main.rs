@@ -1,7 +1,7 @@
 use std::env;
 
 mod days;
-mod utilities;
+mod util;
 
 fn main() {
     let arguments: Vec<String> = env::args().collect();
