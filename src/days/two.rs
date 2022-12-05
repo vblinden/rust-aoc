@@ -1,5 +1,5 @@
 pub fn part1() {
-    let input = crate::util::input::file("input/day2");
+    let input = crate::util::input::file("input/day2.txt");
     let games = input.split("\n").filter(|string| !string.is_empty());
 
     let mut total_opponent_score = 0;
@@ -19,7 +19,7 @@ pub fn part1() {
 }
 
 pub fn part2() {
-    let input = crate::util::input::file("input/day2");
+    let input = crate::util::input::file("input/day2.txt");
     let games = input.split("\n").filter(|string| !string.is_empty());
 
     let mut total_opponent_score = 0;

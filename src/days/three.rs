@@ -1,5 +1,5 @@
 pub fn part1() {
-    let input = crate::util::input::file("input/day3");
+    let input = crate::util::input::file("input/day3.txt");
     let bags = input.split("\n").filter(|item| !item.is_empty());
 
     let mut total = 0;
@@ -25,7 +25,7 @@ pub fn part1() {
 }
 
 pub fn part2() {
-    let input = crate::util::input::file("input/day3");
+    let input = crate::util::input::file("input/day3.txt");
     let bags: Vec<&str> = input
         .split("\n")
         .filter(|item| !item.is_empty())

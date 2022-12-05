@@ -25,6 +25,16 @@ fn main() {
             "2" => days::three::part2(),
             &_ => println!("Can't find part."),
         },
+        "4" => match part {
+            "1" => days::four::part1(),
+            "2" => days::four::part2(),
+            &_ => println!("Can't find part."),
+        },
+        "5" => match part {
+            "1" => days::five::part1(),
+            "2" => days::five::part2(),
+            &_ => println!("Can't find part."),
+        },
         &_ => println!("Can't find day"),
     }
 }

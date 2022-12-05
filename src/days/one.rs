@@ -7,7 +7,7 @@ fn total_calories(input: &str) -> i32 {
 }
 
 pub fn part1() {
-    let input = crate::util::input::file("input/day1");
+    let input = crate::util::input::file("input/day1.txt");
     let calories = input.split("\n\n");
 
     let mut highest_calories = 0;
@@ -24,7 +24,7 @@ pub fn part1() {
 }
 
 pub fn part2() {
-    let input = crate::util::input::file("input/day1");
+    let input = crate::util::input::file("input/day1.txt");
     let calories = input.split("\n\n");
 
     let mut calories_array: Vec<i32> = Vec::new();
